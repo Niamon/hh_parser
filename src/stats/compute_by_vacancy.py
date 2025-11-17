@@ -1,4 +1,3 @@
-# stats/compute_by_vacancy.py
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
