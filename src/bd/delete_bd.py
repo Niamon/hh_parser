@@ -1,8 +1,6 @@
 from sqlalchemy import create_engine, text
 
-# -----------------------------
-# Настройки подключения
-# -----------------------------
+
 USER = "postgres"
 PASSWORD = "postgres"
 HOST = "localhost"
