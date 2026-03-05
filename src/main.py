@@ -40,7 +40,7 @@ def main():
         print("Данные загружены из кэша.")
 
 
-    #dsn = "postgresql+psycopg2://postgres:postgres@localhost:5432/vacancies_db"
+    
     db = VacancyDB(dsn)
 
     existing_rows = db.read_all()
